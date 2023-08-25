@@ -1,0 +1,29 @@
+.profile {
+    margin: 3rem auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .profile span {
+    font-size: 3rem;
+  }
+  .profile span button {
+    background-color: red;
+    border: 3px solid rgb(20, 15, 15);
+  
+    color: black;
+    border: 3px solid #1a1b1a;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  .profile span button:hover {
+    background-color: #0c0c0c;
+    color: white;
+  }
