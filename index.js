@@ -1,11 +1,16 @@
-import { configureStore } from "@reduxjs/toolkit";
-import expense from "./expense";
-import auth from "./auth";
+import ReactDOM from "react-dom/client";
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./Store";
+import "./index.css";
+import App from "./App";
+// import BrowserRouter  from  'react-router-dom';
 
-import premium from "./premium";
-
-const store = configureStore({
-  reducer: { expenses: expense, authenticated: auth, premium: premium },
-});
-
-export default store;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <Provider store={store}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>
+);
