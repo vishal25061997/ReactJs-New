@@ -1,0 +1,42 @@
+.button{
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  }
+  .button1 {
+      background-color: white; 
+      color: black; 
+      border: 4px solid #1e4468;
+      border-radius: 6px;
+      margin-right: 1rem;
+      font-weight: 400;
+      font-weight: bold;
+     
+    }
+    .button1:hover {
+      background-color: #257386;
+      color: white;
+    }
+    
+    .button2 {
+      background-color: white; 
+      color: black; 
+      border: 4px solid rgb(73, 176, 194);
+      border-radius: 6px;
+      margin-right: 1rem;
+      font-weight: bold;
+    }
+    .button2:hover {
+      background-color: rgb(63, 103, 139);
+      color: white;
+    }
+    

@@ -1,0 +1,44 @@
+.form {
+    border: 3px solid rgb(20, 15, 15);
+    border-radius: 6px;
+    width: 90%;
+    height: auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #555b5c;
+    resize: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin: auto;
+    margin-top: 1rem;
+  
+    justify-content: space-evenly;
+  }
+  .tbl {
+    width: 100%;
+    border-collapse: collapse;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+  }
+  th,
+  td {
+    padding: 9px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  
+    text-align: left;
+    padding: 8px;
+  }
+  tr:hover {
+    background-color: rgb(113, 122, 119);
+  }
+  th {
+    background-color: #3b393b;
+    color: white;
+    text-align: left;
+    border-radius: 2px;
+  }
+  table {
+    width: 100%;
+  }
